@@ -1965,19 +1965,19 @@ export default function Home() {
             <a href="/" className="hover:border-b hover:border-white  pb-1 transition-all hover:opacity-80 h-6">
               EXPLORE OUR MALL
             </a>
-            <a href="/AboutUs" className="hover:border-b hover:border-white pb-1 transition-all h-6">
+            <a href="/aboutUs" className="hover:border-b hover:border-white pb-1 transition-all h-6">
               ABOUT
             </a>
-            <a href="/Brands" className="hover:border-b hover:border-white pb-1 transition-all h-6">
+            <a href="/brands" className="hover:border-b hover:border-white pb-1 transition-all h-6">
               BRANDS
             </a>
-            <a href="/Stories" className="hover:border-b hover:border-white pb-1 transition-all h-6">
+            <a href="/stories" className="hover:border-b hover:border-white pb-1 transition-all h-6">
               STORIES
             </a>
-            <a href="/Career" className="hover:border-b hover:border-white pb-1 transition-all h-6">
+            <a href="/career" className="hover:border-b hover:border-white pb-1 transition-all h-6">
               CAREERS
             </a>
-            <a href="/Contactus" className="hover:border-b hover:border-white pb-1 transition-all h-6">
+            <a href="/contactus" className="hover:border-b hover:border-white pb-1 transition-all h-6">
               CONTACT
             </a>
           </nav>
@@ -1996,19 +1996,19 @@ export default function Home() {
           <a href="/" className="block text-lg font-medium">
             EXPLORE OUR MALL
           </a>
-          <a href="/AboutUs" className="block text-lg font-medium">
+          <a href="/aboutUs" className="block text-lg font-medium">
             ABOUT
           </a>
-          <a href="/Brands" className="block text-lg font-medium">
+          <a href="/brands" className="block text-lg font-medium">
             BRANDS
           </a>
-          <a href="/Stories" className="block text-lg font-medium">
+          <a href="/stories" className="block text-lg font-medium">
             STORIES
           </a>
-          <a href="/Career" className="block text-lg font-medium">
+          <a href="/career" className="block text-lg font-medium">
             CAREERS
           </a>
-          <a href="/Contactus" className="block text-lg font-medium">
+          <a href="/contactus" className="block text-lg font-medium">
             CONTACT
           </a>
         </div>
