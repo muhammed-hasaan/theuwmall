@@ -1619,7 +1619,15 @@ import Footer from "../../Components/Footer/Footer"
 import Swal from "sweetalert2"
 import { X } from "lucide-react"
 import graybackground from "../../assets/graybackground.jpg"
-
+import Emploreimg1 from "../../assets/Exploreimg1.jpeg"
+import Emploreimg2 from "../../assets/Exploreimg2.jpeg"
+import Emploreimg3 from "../../assets/Exploreimg3.jpeg"
+import brandimg1 from "../../assets/brand1.png"
+import brandimg2 from "../../assets/brand2.png"
+import brandimg3 from "../../assets/brand3.png"
+import brandimg4 from "../../assets/brand4.png"
+import latestoffers1 from "../../assets/latestoffersimg1.jpeg"
+import latestoffers2 from "../../assets/latestoffersimg2.jpeg"
 
 const CustomCursor = ({ isActive }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 })
@@ -1801,19 +1809,19 @@ export default function Home() {
 
   const Brands = [
     {
-      img: "https://s3-alpha-sig.figma.com/img/e0ef/f5f7/24c784f206a6256c97a7eb90dfcce0f1?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fkBe5Xp2SEjqFJovbWtpMDNaPg3ajf12~uBKg7owf9FjB2DiRbEs3ZYnjuXXTNgySy0mTUFTM~chwoglJ4HZ-z1jUXfZ0DqKzNS1gEaUI7Rk2EKpwkz3dWniPoVT~MAUsBuTBNtj0QmP6JFf8dOYeA2ek9~7BVHMirWyGb8DTQUoRK1MpYnJUUJD7qlM6lAQg4CxzesGR86RNdgypQtJMzfLRVgWQw~kIG-0SojeJMLdgyWCGeTUky-beI~mQbX5-lJfOCb0l6L3zEAC5Vjzf-iMqpaMLJ7ilxnftpF4tmJyKAxmGNTjTR9t2JVGewBoNGzltBtIVtFGmZQJbtZ1tg__",
+      img: brandimg1,
       mt: "mt-[12px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/75a5/f3ef/3dc1b76fffd388d46769627a7402645f?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eR8AD3gpomMZ-1as6ZLEeAmX5R2s0bqH7l0OUJDy~vuj4FfrhP~Z8ufxZVDJr5EMN7z5i54ukTZgAiQtWXdsayvtuixP1uKuUVIfWbJCMxtnX5RRIRkftzQaS08sDEiyTP0mEDRA9Awbb8C~gF~2rlXXdn9CVXYIZxs-BUM90c8Qe6~uo7BX2jpx~ues~EURLm68TbS7ph8VirKANmRcmzuHJLC0H8qBjRJ5LBUdI7rQq88EWuq6ocbTodZhn7wfbE7VP6OVABrblUTaM2N6s1W8ElWolP5~O8GfYijU2NSLHjlk11lTiQFTwuAUAjqJd15~L60rlu5uUP9J6cS5IA__",
+      img: brandimg2,
       top: "-12px",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/4d72/d170/2eaeecda27a5ea3765265f947a36858e?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PNMxUEKgoamYFNx0mEI~etC9VoL~THWuZDlo~dnAF5ulsz9lsnzf03G6PjWTEGNfI7s1MkJHdgAomlUfi2ZVcqBsm3jQ8H0mj4Ag9NekgVa24zR12W~r22sLVPF8f9pCWjL4tWbuVBlfJ6InCbg6Mu-DnJJHixQ8SFLHXKqznPPKeN4LIMMNv0COZOrPafPS9wa-oVHtncRYAovDK-SCZpWCLDY0VM6agwuksdfiocYONRgYyE-vx8JL49gd6xJjIxkE03R9XFDA0TgEt-JJ4uP9OSug9kuzgy8PGNhdo1kjXMdFI3xON26SNWupySpJxN4B-WWfP4WTPfSOh29ebA__",
+      img: brandimg3,
       mt: "mt-[14px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/4809/5628/7eecb7445e064336e6c6a6c577d501af?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Bxwd456HtREwhmv9EYugzJdkYNH~03xovnfpnBMwZULu7H-Y6hDuu36VbiOOcFlrvsEJ9SqeP69OYUeuDjiEq-aN4yRGC1kyBIZjTWClmDLVCnuNJmrDZqc8eV~-0o~boOQFkVRYQalzRhGJrAi9fhMPYoTWQWKt4Vp4sMpbz5XTCZo-U2l-x2u94sSlwqMlN4aHm3CvAGkrfA2L3Rvgibf8LFD3-M8TJwMCb84jMNoAMM7rA5JRBNAZPizIpzsR25jKHCPVWH6NHW0b6X2LOQzjbjGaYiA~E-rkXMpX1d3fSUA5tX8Wv56rXjiO0~YC3oniqoKyrzeucC0LJxJWjw__",
+      img: brandimg4,
       top: "-18px",
     },
     {
@@ -1860,12 +1868,12 @@ export default function Home() {
   const [hideCursor, setHideCursor] = useState(false)
   const offers = [
     {
-      img: "https://s3-alpha-sig.figma.com/img/ce4b/6f2b/26f62464757cda973cd6c00fb36f8186?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=H~LOh~0KthPzoUoAst~jnIo44nFeXhCX~Ea4pq5aWTMe0hnX4hYInk3DL5gNN4sFxMGmRqgM6Sv3qbuMP~72rjS1LIUjfu~CBjwjgj4JWjhHX7Jjq95bjHKm7S-P1rF18ZYsoTG~XwxvHtpM5bwuTjkV9H4lUNB85CCc8FdZNVADhFsXrwhRpMgcUhZkp44i33EabvdWX8wf1IZG2DLt8whIx4z1Cx9W6s4JupgpnujzeiW8d0YisCncmSkpBnt2qdg5OAp7i1x68kaOoB8wfhyvN-3Q4YCiOV9V-GyXhekuzBbPGHXSGPFOSckidB5taqgKGVCevl~In-M6R1uBLw__",
+      img: latestoffers1,
       title: "MALABAR GOLD",
       location: "Shop No. 01, Ground Floor",
     },
     {
-      img: "https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?t=st=1743419007~exp=1743422607~hmac=1b7a73bee87eea12631cd21d5bb27283e0e69a03c4f5987eb73ea5df66113884&w=740",
+      img: latestoffers2,
       title: "NEW DIAMOND DEAL",
       location: "Shop No. 02, First Floor",
     },
@@ -2115,34 +2123,35 @@ export default function Home() {
           {[
             {
               title: "Gold",
-              img: "https://s3-alpha-sig.figma.com/img/7f21/1475/60124caa244c41608b7fb8b7336b6eb4?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rPWQ24RwiQqUdQ3fshaqC8h7Kmi~cDg0Gm5FWyUHfW8xUFZkqaJsIfwGLKqYzUYCtiWshMTDYV2v-RNOhROXFc7~qe2PkxIk1SN-BUP1i9Q5B9extE0rPMh56CTyGrWiAX1bW2336c3Mi-3eyr5Z8hW9ob3DOEuCG1ZoJgqbRsv7pSiSCEg0cvJWbKUpO7UXK54lpnmKxDy8hSzsr4GNgYr37MpCl-yjG7yvcUSVUipmjtnEpUwdQDy6CEiRJErKgdek-ok9G8yWP60KpRPZJD130XjSeKRuBfkgSNk5fB-prfpUoNrhIMnkz32C~fBqZphNN593zbKeWv2WB~u7TA__",
+              img: Emploreimg1,
               description: "Timeless craftsmanship, radiant designs, and pure elegance. Elevate your jewelry collection with the finest pieces from globally renowned brands."
             },
             {
               title: "Lifestyle",
-              img: "https://s3-alpha-sig.figma.com/img/a1f8/6173/87bb30f2d8845ffa53aefa2960967a21?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NNT17p2Q7DJwqb4S8EwJ7PhpP1vR4tKQv2h9ipPcyjxSQXX~lN3BM-TFNCjSdz1gTHJlMVRgHbEqGXpZZyWXelnAR1Sfxr0XShVmVPgFatMsMiqhmKuk5MFh~AZiJPk6fBxxb2M88NWf9sTnGa5PEoElqufBS2haMllEq0NuBA790KJveUO2vaGaL1KN9RDnFO6x~f-1TrDgPRvdEfe6Z3dJkhoOtIQGL3n4Fz59fUgJza380gmpCQ0NZ2vF-RhhrKsnj45rnbbSVj2kpQO24~3qIN35A-ClxkKX65~yeKvZmmyuhCohLq8hXbc~NAZ5fopxjmhlple-ZUOuQklsUQ__",
+              img: Emploreimg2,
               description: "Elevate your everyday with handpicked luxury essentials. From decor that transforms your space to accessories that add finesse to your routine, indulge in the finer things."
             },
             {
               title: "Fashion",
-              img: "https://s3-alpha-sig.figma.com/img/08cb/e57b/f414e5109e63c21d0114314bf799f1e5?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cNQP2grQj7BEikrON390iOZDtaj1v-bw5vfJ3r~yCP1nMjRESE~GcOyrPmwYEmbpVzv--69L2LUYLMYPxqNCe652cJKjllv5WHVPGEHbRenWc5KanKzDu8EYrLSwYviVE1A4HzBPGQsw5hVnWmuztysMzRvNQfSXP3JVdklr5iwQad9~jH53GbpOmo3ccBgGgwBAE~CmNuTwryJsIqCXGFMOekCUXDQql3gWkkwuXtEkRmsDmUvsVHWuNvZw3V~NwM6YCH0Nza0O81VUYPgRdfTJ6KXxQ~F1PSXTt3mhbj0W2rvyJb0vkHKUIfefnrSCGzJhKVR9q2kxb0Z6WgHEMA__",
+              img: Emploreimg3,
               description: "Step into the world of high-end fashion, where trendsetting designs, luxury craftsmanship, and iconic labels come together to elevate your unique style and confidence. "
             },
             {
               title: "Gold",
-              img: "https://s3-alpha-sig.figma.com/img/7f21/1475/60124caa244c41608b7fb8b7336b6eb4?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rPWQ24RwiQqUdQ3fshaqC8h7Kmi~cDg0Gm5FWyUHfW8xUFZkqaJsIfwGLKqYzUYCtiWshMTDYV2v-RNOhROXFc7~qe2PkxIk1SN-BUP1i9Q5B9extE0rPMh56CTyGrWiAX1bW2336c3Mi-3eyr5Z8hW9ob3DOEuCG1ZoJgqbRsv7pSiSCEg0cvJWbKUpO7UXK54lpnmKxDy8hSzsr4GNgYr37MpCl-yjG7yvcUSVUipmjtnEpUwdQDy6CEiRJErKgdek-ok9G8yWP60KpRPZJD130XjSeKRuBfkgSNk5fB-prfpUoNrhIMnkz32C~fBqZphNN593zbKeWv2WB~u7TA__",
+              img: Emploreimg1,
               description: "Timeless craftsmanship, radiant designs, and pure elegance. Elevate your jewelry collection with the finest pieces from globally renowned brands."
             },
             {
               title: "Lifestyle",
-              img: "https://s3-alpha-sig.figma.com/img/a1f8/6173/87bb30f2d8845ffa53aefa2960967a21?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NNT17p2Q7DJwqb4S8EwJ7PhpP1vR4tKQv2h9ipPcyjxSQXX~lN3BM-TFNCjSdz1gTHJlMVRgHbEqGXpZZyWXelnAR1Sfxr0XShVmVPgFatMsMiqhmKuk5MFh~AZiJPk6fBxxb2M88NWf9sTnGa5PEoElqufBS2haMllEq0NuBA790KJveUO2vaGaL1KN9RDnFO6x~f-1TrDgPRvdEfe6Z3dJkhoOtIQGL3n4Fz59fUgJza380gmpCQ0NZ2vF-RhhrKsnj45rnbbSVj2kpQO24~3qIN35A-ClxkKX65~yeKvZmmyuhCohLq8hXbc~NAZ5fopxjmhlple-ZUOuQklsUQ__",
+              img: Emploreimg2,
               description: "Elevate your everyday with handpicked luxury essentials. From decor that transforms your space to accessories that add finesse to your routine, indulge in the finer things."
             },
             {
               title: "Fashion",
-              img: "https://s3-alpha-sig.figma.com/img/08cb/e57b/f414e5109e63c21d0114314bf799f1e5?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cNQP2grQj7BEikrON390iOZDtaj1v-bw5vfJ3r~yCP1nMjRESE~GcOyrPmwYEmbpVzv--69L2LUYLMYPxqNCe652cJKjllv5WHVPGEHbRenWc5KanKzDu8EYrLSwYviVE1A4HzBPGQsw5hVnWmuztysMzRvNQfSXP3JVdklr5iwQad9~jH53GbpOmo3ccBgGgwBAE~CmNuTwryJsIqCXGFMOekCUXDQql3gWkkwuXtEkRmsDmUvsVHWuNvZw3V~NwM6YCH0Nza0O81VUYPgRdfTJ6KXxQ~F1PSXTt3mhbj0W2rvyJb0vkHKUIfefnrSCGzJhKVR9q2kxb0Z6WgHEMA__",
+              img: Emploreimg3,
               description: "Step into the world of high-end fashion, where trendsetting designs, luxury craftsmanship, and iconic labels come together to elevate your unique style and confidence. "
             },
+          
 
           ].map((item, ind) => (
             <div key={ind} className="group cursor-pointer min-w-full sm:min-w-[300px] md:min-w-[410px]">
