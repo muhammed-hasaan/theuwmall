@@ -1656,7 +1656,7 @@ const CustomCursor = ({ isActive }) => {
         top: `${position.y}px`,
         transform: "translate(-50%, -50%)",
       }}
-      
+
     >
       <div className="text-center bg-[#dbb85d] rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-28 lg:h-28 flex flex-col items-center justify-center">
         <div className="font-bold text-[8px] sm:text-[10px] md:text-[12px] lg:text-[20px] text-black">Watch</div>
@@ -1898,6 +1898,7 @@ export default function Home() {
 
 
   const [isOpen, setIsOpen] = useState(false)
+  const [isOpen2, setIsOpen2] = useState(false)
 
   // Add effect to control body background when popup is open
   useEffect(() => {
@@ -1915,6 +1916,13 @@ export default function Home() {
     }
   }, [isOpen])
 
+  const togglePopup2 = () => {
+    setIsOpen2(!isOpen2)
+  }
+
+  const closePopup2 = () => {
+    setIsOpen2(false)
+  }
   const togglePopup = () => {
     setIsOpen(!isOpen)
   }
@@ -2025,7 +2033,7 @@ export default function Home() {
         {!hideCursor && <CustomCursor isActive={isHovering2} />}
 
         {/* Hero Content */}
-        <div onClick={togglePopup} className="relative z-10 flex flex-col justify-center items-center h-[50vh] sm:h-[55vh] md:h-[60vh] lg:h-[65vh] xl:h-[70vh] text-white text-center px-4">
+        <div onClick={togglePopup2} className="relative z-10 flex flex-col justify-center items-center h-[50vh] sm:h-[55vh] md:h-[60vh] lg:h-[65vh] xl:h-[70vh] text-white text-center px-4">
           <h1
             className="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-light tracking-[0.2em] mb-4 "
             style={{ fontWeight: 500 }}
@@ -2151,7 +2159,7 @@ export default function Home() {
               img: Emploreimg3,
               description: "Step into the world of high-end fashion, where trendsetting designs, luxury craftsmanship, and iconic labels come together to elevate your unique style and confidence. "
             },
-          
+
 
           ].map((item, ind) => (
             <div key={ind} className="group cursor-pointer min-w-full sm:min-w-[300px] md:min-w-[410px]">
@@ -2381,6 +2389,53 @@ export default function Home() {
             <div className="pt-4">
               <button
                 onClick={closePopup}
+                className="bg-[#ff3366] p-1 text-white rounded-full hover:to-violet-600 w-full"
+              >
+                Got it!
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        {/* reel popup */}
+        <div
+          className={`fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-2xl z-50 w-[90%] max-w-md
+            transition-all duration-300 ease-in-out
+            ${isOpen2 ? "opacity-100 scale-100" : "opacity-0 scale-90 pointer-events-none"}`}
+        >
+          <div className="absolute top-3 right-3">
+            <button
+              onClick={closePopup2}
+              className="rounded-full p-1 text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          </div>
+
+          <div className="text-center space-y-4">
+            <div className="w-16 h-16 bg-[#ff3366] rounded-full mx-auto flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8 text-white"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Reel Comming  Soon</h3>
+
+            <p className="text-gray-600 dark:text-gray-300">
+              Big things are coming! Our latest reel is almost here stay tuned, you won’t want to miss this! 🚀
+            </p>
+
+
+            <div className="pt-4">
+              <button
+                onClick={closePopup2}
                 className="bg-[#ff3366] p-1 text-white rounded-full hover:to-violet-600 w-full"
               >
                 Got it!
