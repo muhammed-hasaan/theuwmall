@@ -14,11 +14,11 @@ export default function Footer({ frombrand }) {
   return (
     <footer className="w-full bg-black text-white py-12 px-4 sm:px-6 lg:px-8 xl:px-20 flex justify-center items-center">
     <div className="w-full max-w-[1300px] mx-auto   ">
-      <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-x-10 sm:ml-3 lg:ml-0">
+      <div className="flex flex-col md:flex-row justify-between items-center md:items-start md:space-x-10 sm:ml-3 lg:ml-0">
         {/* Left Section */}
         <div className="w-full md:w-[50%] flex flex-col items-center md:items-start text-center md:text-left ">
-          <img src={GoldenUwMallLogo} alt="UW Mall" width={100} height={40} className="mb-6" />
-          <div className="w-full max-w-sm mt-14 ml-10 md:ml-0">
+          <img src={GoldenUwMallLogo} alt="UW Mall" width={100} height={40} className="mb-6 " />
+          <div className="w-full max-w-sm mt-14  md:ml-0">
             <div className="flex items-center mb-3">
               <div className="w-3 h-3 rounded-full bg-[#ffc107] mr-2"></div>
               <h4 className="uppercase text-md text-[#ffc107]">Receive our newsletter</h4>
