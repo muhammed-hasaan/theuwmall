@@ -12,7 +12,7 @@ export default function Footer({ frombrand }) {
     tiktok: <FaTiktok />,
   };
   return (
-    <footer className="w-full bg-black text-white py-12 px-4 sm:px-6 lg:px-8 xl:px-20 flex justify-center items-center">
+    <footer className="w-full bg-black text-white py-12 px-4 sm:px-6 lg:px-8 xl:px-20 flex justify-center items-center ">
     <div className="w-full max-w-[1300px] mx-auto   ">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start md:space-x-10 sm:ml-3 lg:ml-0">
         {/* Left Section */}
@@ -33,7 +33,7 @@ export default function Footer({ frombrand }) {
         <div className="w-full md:w-[70%] flex flex-col items-start md:items-start mt-10 md:mt-0 ">
           <div className="text-left md:text-left mb-6">
             <p className="text-white">Contact Us:</p>
-            <p className="text-white">uwmall@gmail.com</p>
+            <p className="text-white">info@theuwmall.com</p>
           </div>
           <div className="w-full flex flex-wrap justify-start md:justify-start gap-x-24 gap-y-6 mt-14">
             {/* Social Icons */}

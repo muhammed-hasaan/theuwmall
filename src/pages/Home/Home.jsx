@@ -1658,9 +1658,9 @@ const CustomCursor = ({ isActive }) => {
       }}
 
     >
-      <div className="text-center bg-[#dbb85d] rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-28 lg:h-28 flex flex-col items-center justify-center">
-        <div className="font-bold text-[8px] sm:text-[10px] md:text-[12px] lg:text-[20px] text-black">Watch</div>
-        <div className="font-bold text-[8px] sm:text-[10px] md:text-[12px] lg:text-[20px] text-black -mt-[9px]">
+      <div className="text-center bg-black rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-28 lg:h-28 flex flex-col items-center justify-center">
+        <div className="font-bold text-[8px] sm:text-[10px] md:text-[12px] lg:text-[20px] text-[#dbb85d]">Watch</div>
+        <div className="font-bold text-[8px] sm:text-[10px] md:text-[12px] lg:text-[20px] text-[#dbb85d] -mt-[9px]">
           Reel
         </div>
       </div>

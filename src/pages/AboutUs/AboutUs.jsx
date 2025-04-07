@@ -774,13 +774,13 @@ const closePopup = () => {
 <div>
   <p className="font-bold mt-4">Beyond Shopping – A Lifestyle Experience  </p> 
     <br/>
-    <p className="-mt-4">
+    <p className="-mt-2">
     At UW Mall, we are committed to offering a space where style is celebrated in every form—from exquisite jewelry to the latest fashion trends—all within a convenient and luxurious environment. We’re not just a shopping destination; we’re a vibrant community that enhances your lifestyle and brings your passions to life.
     </p>
     <p className="font-bold mt-4">Join Our Community
     </p> 
     <br/>
-    <p className="-mt-4">
+    <p className="-mt-2">
     We invite you to become part of the UW Mall community—a place where fashion, elegance, and lifestyle are celebrated every day. Experience the epitome of luxury shopping and immerse yourself in an environment that reflects your aspirations and style.
     </p>
     <br />

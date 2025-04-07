@@ -9,7 +9,7 @@ export default function CareerPage() {
     return (
         <div>
             <AllPageHeader />
-      <div className="w-full max-w-[1340px] mx-auto px-4 py-8 font-sans mt-10 ">
+      <div className="w-full max-w-[1340px] mx-auto px-4 py-8  mt-10 ">
         {/* Header with Career title and search */}
         <div className="flex items-center justify-between border-b-2 border-gray-900 pb-6 mb-8">
           <div className="flex items-center gap-2">
@@ -40,12 +40,12 @@ export default function CareerPage() {
           {/* Marketing Executive */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h2 className="text-xl font-bold mb-4">MARKETING EXECUTIVE</h2>
+              <h2 className="text-xl font-bold mb-4">MARKETING COORDINATOR</h2>
             </div>
             <div className="space-y-6">
               <p className="text-sm leading-relaxed">
                 Are you a creative thinker with a passion for marketing and brand growth? Join our dynamic team as a
-                Marketing Executive and play a key role in shaping impactful campaigns, engaging audiences, and driving
+                Marketing Coordinator and play a key role in shaping impactful campaigns, engaging audiences, and driving
                 business success.
               </p>
   
@@ -72,9 +72,11 @@ export default function CareerPage() {
               </div>
   
               <div className="pt-2">
+                <a href="mailto:admin@theuwmall">
                 <button className="border border-gray-300 rounded-full text-xs px-6 py-1 hover:bg-gray-100 transition-colors">
                   APPLY NOW
                 </button>
+                </a>
               </div>
             </div>
           </div>
