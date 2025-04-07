@@ -567,6 +567,9 @@ import { ChevronLeft, ChevronRight, MoreHorizontal,ChevronDown, ParkingCircle, G
 import UwMallLogo from "../../assets/GoldenLogoForAllPages.png";
 import GoldenUwMallLogo from "../../assets/goldenUWLogo.png";
 import { CarTaxiFront } from "lucide-react";
+import Emploreimg1 from "../../assets/Exploreimg1.jpeg"
+import Emploreimg2 from "../../assets/Exploreimg2.jpeg"
+import Emploreimg3 from "../../assets/Exploreimg3.jpeg"
 
 // Import your components - adjust paths as needed
 // import AllPageHeaders from "../../components/AllPageHeader/AllPageHeader";
@@ -853,48 +856,55 @@ style={{ zIndex: 9999, position: 'relative', cursor: 'pointer' }}
       <section className="py-6 sm:py-8 md:py-10 lg:py-2 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-12 bg-transparent max-w-[1400px] mx-auto mt-4"> 
      
       <div ref={scrollRef3} className="flex space-x-6 overflow-x-scroll scrollbar-hide no-scrollbar mt-4">
-          {[
-            {
-              title: "Gold",
-              img: "https://s3-alpha-sig.figma.com/img/7f21/1475/60124caa244c41608b7fb8b7336b6eb4?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rPWQ24RwiQqUdQ3fshaqC8h7Kmi~cDg0Gm5FWyUHfW8xUFZkqaJsIfwGLKqYzUYCtiWshMTDYV2v-RNOhROXFc7~qe2PkxIk1SN-BUP1i9Q5B9extE0rPMh56CTyGrWiAX1bW2336c3Mi-3eyr5Z8hW9ob3DOEuCG1ZoJgqbRsv7pSiSCEg0cvJWbKUpO7UXK54lpnmKxDy8hSzsr4GNgYr37MpCl-yjG7yvcUSVUipmjtnEpUwdQDy6CEiRJErKgdek-ok9G8yWP60KpRPZJD130XjSeKRuBfkgSNk5fB-prfpUoNrhIMnkz32C~fBqZphNN593zbKeWv2WB~u7TA__",
-            },
-            {
-              title: "Lifestyle",
-              img: "https://s3-alpha-sig.figma.com/img/a1f8/6173/87bb30f2d8845ffa53aefa2960967a21?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NNT17p2Q7DJwqb4S8EwJ7PhpP1vR4tKQv2h9ipPcyjxSQXX~lN3BM-TFNCjSdz1gTHJlMVRgHbEqGXpZZyWXelnAR1Sfxr0XShVmVPgFatMsMiqhmKuk5MFh~AZiJPk6fBxxb2M88NWf9sTnGa5PEoElqufBS2haMllEq0NuBA790KJveUO2vaGaL1KN9RDnFO6x~f-1TrDgPRvdEfe6Z3dJkhoOtIQGL3n4Fz59fUgJza380gmpCQ0NZ2vF-RhhrKsnj45rnbbSVj2kpQO24~3qIN35A-ClxkKX65~yeKvZmmyuhCohLq8hXbc~NAZ5fopxjmhlple-ZUOuQklsUQ__",
-            },
-            {
-              title: "Fashion",
-              img: "https://s3-alpha-sig.figma.com/img/08cb/e57b/f414e5109e63c21d0114314bf799f1e5?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cNQP2grQj7BEikrON390iOZDtaj1v-bw5vfJ3r~yCP1nMjRESE~GcOyrPmwYEmbpVzv--69L2LUYLMYPxqNCe652cJKjllv5WHVPGEHbRenWc5KanKzDu8EYrLSwYviVE1A4HzBPGQsw5hVnWmuztysMzRvNQfSXP3JVdklr5iwQad9~jH53GbpOmo3ccBgGgwBAE~CmNuTwryJsIqCXGFMOekCUXDQql3gWkkwuXtEkRmsDmUvsVHWuNvZw3V~NwM6YCH0Nza0O81VUYPgRdfTJ6KXxQ~F1PSXTt3mhbj0W2rvyJb0vkHKUIfefnrSCGzJhKVR9q2kxb0Z6WgHEMA__",
-            },
-            {
-              title: "Gold",
-              img: "https://s3-alpha-sig.figma.com/img/7f21/1475/60124caa244c41608b7fb8b7336b6eb4?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rPWQ24RwiQqUdQ3fshaqC8h7Kmi~cDg0Gm5FWyUHfW8xUFZkqaJsIfwGLKqYzUYCtiWshMTDYV2v-RNOhROXFc7~qe2PkxIk1SN-BUP1i9Q5B9extE0rPMh56CTyGrWiAX1bW2336c3Mi-3eyr5Z8hW9ob3DOEuCG1ZoJgqbRsv7pSiSCEg0cvJWbKUpO7UXK54lpnmKxDy8hSzsr4GNgYr37MpCl-yjG7yvcUSVUipmjtnEpUwdQDy6CEiRJErKgdek-ok9G8yWP60KpRPZJD130XjSeKRuBfkgSNk5fB-prfpUoNrhIMnkz32C~fBqZphNN593zbKeWv2WB~u7TA__",
-            },
-            {
-              title: "Lifestyle",
-              img: "https://s3-alpha-sig.figma.com/img/a1f8/6173/87bb30f2d8845ffa53aefa2960967a21?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NNT17p2Q7DJwqb4S8EwJ7PhpP1vR4tKQv2h9ipPcyjxSQXX~lN3BM-TFNCjSdz1gTHJlMVRgHbEqGXpZZyWXelnAR1Sfxr0XShVmVPgFatMsMiqhmKuk5MFh~AZiJPk6fBxxb2M88NWf9sTnGa5PEoElqufBS2haMllEq0NuBA790KJveUO2vaGaL1KN9RDnFO6x~f-1TrDgPRvdEfe6Z3dJkhoOtIQGL3n4Fz59fUgJza380gmpCQ0NZ2vF-RhhrKsnj45rnbbSVj2kpQO24~3qIN35A-ClxkKX65~yeKvZmmyuhCohLq8hXbc~NAZ5fopxjmhlple-ZUOuQklsUQ__",
-            },
-            {
-              title: "Fashion",
-              img: "https://s3-alpha-sig.figma.com/img/08cb/e57b/f414e5109e63c21d0114314bf799f1e5?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cNQP2grQj7BEikrON390iOZDtaj1v-bw5vfJ3r~yCP1nMjRESE~GcOyrPmwYEmbpVzv--69L2LUYLMYPxqNCe652cJKjllv5WHVPGEHbRenWc5KanKzDu8EYrLSwYviVE1A4HzBPGQsw5hVnWmuztysMzRvNQfSXP3JVdklr5iwQad9~jH53GbpOmo3ccBgGgwBAE~CmNuTwryJsIqCXGFMOekCUXDQql3gWkkwuXtEkRmsDmUvsVHWuNvZw3V~NwM6YCH0Nza0O81VUYPgRdfTJ6KXxQ~F1PSXTt3mhbj0W2rvyJb0vkHKUIfefnrSCGzJhKVR9q2kxb0Z6WgHEMA__",
-            },
-          ].map((item, ind) => (
-<div key={ind} className="group cursor-pointer min-w-full sm:min-w-[300px] md:min-w-[445px]">
-<div className="overflow-hidden mb-2 sm:mb-3 md:mb-4 ">
-                <img
-                  src={item.img || "/placeholder.svg"}
-                  alt={item.title}
-                  // width={600}
-                  // height={400}
-                  className="w-full  h-[563px] aspect-video object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <h4 className="font-bold uppercase text-base sm:text-lg md:text-xl mb-1 md:mb-2">{item.title}</h4>
-              <p className="text-gray-600 text-xs sm:text-sm md:text-base">
-                Most covatable luxury brands at Fashion Avenue ready for you to discover.
-              </p>
-            </div>
-          ))}
+        {[
+                    {
+                      title: "Gold",
+                      img: Emploreimg1,
+                      description: "Timeless craftsmanship, radiant designs, and pure elegance. Elevate your jewelry collection with the finest pieces from globally renowned brands."
+                    },
+                    {
+                      title: "Lifestyle",
+                      img: Emploreimg2,
+                      description: "Elevate your everyday with handpicked luxury essentials. From decor that transforms your space to accessories that add finesse to your routine, indulge in the finer things."
+                    },
+                    {
+                      title: "Fashion",
+                      img: Emploreimg3,
+                      description: "Step into the world of high-end fashion, where trendsetting designs, luxury craftsmanship, and iconic labels come together to elevate your unique style and confidence. "
+                    },
+                    {
+                      title: "Gold",
+                      img: Emploreimg1,
+                      description: "Timeless craftsmanship, radiant designs, and pure elegance. Elevate your jewelry collection with the finest pieces from globally renowned brands."
+                    },
+                    {
+                      title: "Lifestyle",
+                      img: Emploreimg2,
+                      description: "Elevate your everyday with handpicked luxury essentials. From decor that transforms your space to accessories that add finesse to your routine, indulge in the finer things."
+                    },
+                    {
+                      title: "Fashion",
+                      img: Emploreimg3,
+                      description: "Step into the world of high-end fashion, where trendsetting designs, luxury craftsmanship, and iconic labels come together to elevate your unique style and confidence. "
+                    },
+                  
+        
+                  ].map((item, ind) => (
+                    <div key={ind} className="group cursor-pointer min-w-full sm:min-w-[300px] md:min-w-[410px]">
+                      <div className="overflow-hidden mb-2 sm:mb-3 md:mb-4 ">
+                        <img
+                          src={item.img || "/placeholder.svg"}
+                          alt={item.title}
+                          className="w-full h-[563px] aspect-video object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      </div>
+                      <h4 className="font-bold uppercase text-base sm:text-lg md:text-xl mb-1 md:mb-2">{item.title}</h4>
+                      <p className="text-gray-600 text-xs sm:text-md ">
+                        {/* Most covatable luxury brands at Fashion Avenue ready for you to discover. */}
+                        {item.description}
+                      </p>
+                    </div>
+                  ))}
         </div>
       </section>
 

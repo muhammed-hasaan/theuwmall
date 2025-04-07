@@ -2,38 +2,35 @@ import { ArrowRight } from "lucide-react"
 import AllPageHeader from "../../Components/AllPageHeader/AllPageHeader"
 // import Footer from "../../Components/Footer/footer"
 import Footer from "../../Components/Footer/Footer"
+import StoryImg from "../../assets/stories.jpeg"
 export default function Stories() {
   const stories = [
     {
       id: 1,
       title: "CELEBRATE THE SPIRIT OF GIVING THIS EID AT UW MALL",
       date: "Date: April 07, 23",
-      image:
-        "https://s3-alpha-sig.figma.com/img/fd93/e494/051adf6370e0fa4e7900130faa0e9d55?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NXNdKGz-NEgouNOE1UCwICKP3VZa9DCnGWZ8gStW8u4bh14L5mT57~EE5y85cE5u52z9E-k6IzZDUL8hlLWhkq4Zs3sYIQ1JCd6Tm1XigvqHZUEH72y2VcqOX6QOXYfsQU5DiT10dyAvu2SZz-k2~Dqvl0522l6YqWeQGMZMGg29PC9zGtE90vFLnHOz5V-W2omfAUkzPraSSZJzzAVIF1jOTe5Z2hk~n3oonafafCBse526MxJojLxyvgFEbwOrV63NoQyYa0w9cS4RKRnFD7JnFo3ODdIV42BbetapCN0txFx-1X7SS6PBY8knqgsu34Ozju1wmgQTAc1S6~6wbw__",
+      image:StoryImg,
       showArrow: true,
     },
     {
       id: 2,
       title: "CELEBRATE THE SPIRIT OF GIVING THIS EID AT UW MALL",
       date: "Date: April 07, 23",
-      image:
-        "https://s3-alpha-sig.figma.com/img/fd93/e494/051adf6370e0fa4e7900130faa0e9d55?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NXNdKGz-NEgouNOE1UCwICKP3VZa9DCnGWZ8gStW8u4bh14L5mT57~EE5y85cE5u52z9E-k6IzZDUL8hlLWhkq4Zs3sYIQ1JCd6Tm1XigvqHZUEH72y2VcqOX6QOXYfsQU5DiT10dyAvu2SZz-k2~Dqvl0522l6YqWeQGMZMGg29PC9zGtE90vFLnHOz5V-W2omfAUkzPraSSZJzzAVIF1jOTe5Z2hk~n3oonafafCBse526MxJojLxyvgFEbwOrV63NoQyYa0w9cS4RKRnFD7JnFo3ODdIV42BbetapCN0txFx-1X7SS6PBY8knqgsu34Ozju1wmgQTAc1S6~6wbw__",
+      image:StoryImg,
       showArrow: true,
     },
     {
       id: 3,
       title: "CELEBRATE THE SPIRIT OF GIVING THIS EID AT UW MALL",
       date: "Date: April 07, 23",
-      image:
-        "https://s3-alpha-sig.figma.com/img/fd93/e494/051adf6370e0fa4e7900130faa0e9d55?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NXNdKGz-NEgouNOE1UCwICKP3VZa9DCnGWZ8gStW8u4bh14L5mT57~EE5y85cE5u52z9E-k6IzZDUL8hlLWhkq4Zs3sYIQ1JCd6Tm1XigvqHZUEH72y2VcqOX6QOXYfsQU5DiT10dyAvu2SZz-k2~Dqvl0522l6YqWeQGMZMGg29PC9zGtE90vFLnHOz5V-W2omfAUkzPraSSZJzzAVIF1jOTe5Z2hk~n3oonafafCBse526MxJojLxyvgFEbwOrV63NoQyYa0w9cS4RKRnFD7JnFo3ODdIV42BbetapCN0txFx-1X7SS6PBY8knqgsu34Ozju1wmgQTAc1S6~6wbw__",
+      image:StoryImg,
       showArrow: true,
     },
     {
       id: 4,
       title: "CELEBRATE THE SPIRIT OF GIVING THIS EID AT UW MALL",
       date: "Date: April 07, 23",
-      image:
-        "https://s3-alpha-sig.figma.com/img/fd93/e494/051adf6370e0fa4e7900130faa0e9d55?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NXNdKGz-NEgouNOE1UCwICKP3VZa9DCnGWZ8gStW8u4bh14L5mT57~EE5y85cE5u52z9E-k6IzZDUL8hlLWhkq4Zs3sYIQ1JCd6Tm1XigvqHZUEH72y2VcqOX6QOXYfsQU5DiT10dyAvu2SZz-k2~Dqvl0522l6YqWeQGMZMGg29PC9zGtE90vFLnHOz5V-W2omfAUkzPraSSZJzzAVIF1jOTe5Z2hk~n3oonafafCBse526MxJojLxyvgFEbwOrV63NoQyYa0w9cS4RKRnFD7JnFo3ODdIV42BbetapCN0txFx-1X7SS6PBY8knqgsu34Ozju1wmgQTAc1S6~6wbw__",
+      image:StoryImg,
       showArrow: true,
     },
   ]

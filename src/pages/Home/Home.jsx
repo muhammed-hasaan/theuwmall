@@ -1825,39 +1825,38 @@ export default function Home() {
       top: "-18px",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/e0ef/f5f7/24c784f206a6256c97a7eb90dfcce0f1?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fkBe5Xp2SEjqFJovbWtpMDNaPg3ajf12~uBKg7owf9FjB2DiRbEs3ZYnjuXXTNgySy0mTUFTM~chwoglJ4HZ-z1jUXfZ0DqKzNS1gEaUI7Rk2EKpwkz3dWniPoVT~MAUsBuTBNtj0QmP6JFf8dOYeA2ek9~7BVHMirWyGb8DTQUoRK1MpYnJUUJD7qlM6lAQg4CxzesGR86RNdgypQtJMzfLRVgWQw~kIG-0SojeJMLdgyWCGeTUky-beI~mQbX5-lJfOCb0l6L3zEAC5Vjzf-iMqpaMLJ7ilxnftpF4tmJyKAxmGNTjTR9t2JVGewBoNGzltBtIVtFGmZQJbtZ1tg__",
+      img: brandimg1,
       mt: "mt-[12px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/75a5/f3ef/3dc1b76fffd388d46769627a7402645f?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eR8AD3gpomMZ-1as6ZLEeAmX5R2s0bqH7l0OUJDy~vuj4FfrhP~Z8ufxZVDJr5EMN7z5i54ukTZgAiQtWXdsayvtuixP1uKuUVIfWbJCMxtnX5RRIRkftzQaS08sDEiyTP0mEDRA9Awbb8C~gF~2rlXXdn9CVXYIZxs-BUM90c8Qe6~uo7BX2jpx~ues~EURLm68TbS7ph8VirKANmRcmzuHJLC0H8qBjRJ5LBUdI7rQq88EWuq6ocbTodZhn7wfbE7VP6OVABrblUTaM2N6s1W8ElWolP5~O8GfYijU2NSLHjlk11lTiQFTwuAUAjqJd15~L60rlu5uUP9J6cS5IA__",
+      img: brandimg2,
       top: "-12px",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/4d72/d170/2eaeecda27a5ea3765265f947a36858e?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PNMxUEKgoamYFNx0mEI~etC9VoL~THWuZDlo~dnAF5ulsz9lsnzf03G6PjWTEGNfI7s1MkJHdgAomlUfi2ZVcqBsm3jQ8H0mj4Ag9NekgVa24zR12W~r22sLVPF8f9pCWjL4tWbuVBlfJ6InCbg6Mu-DnJJHixQ8SFLHXKqznPPKeN4LIMMNv0COZOrPafPS9wa-oVHtncRYAovDK-SCZpWCLDY0VM6agwuksdfiocYONRgYyE-vx8JL49gd6xJjIxkE03R9XFDA0TgEt-JJ4uP9OSug9kuzgy8PGNhdo1kjXMdFI3xON26SNWupySpJxN4B-WWfP4WTPfSOh29ebA__",
-      mt: "mt-[12px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
+      img: brandimg3,
+      mt: "mt-[14px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/4809/5628/7eecb7445e064336e6c6a6c577d501af?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Bxwd456HtREwhmv9EYugzJdkYNH~03xovnfpnBMwZULu7H-Y6hDuu36VbiOOcFlrvsEJ9SqeP69OYUeuDjiEq-aN4yRGC1kyBIZjTWClmDLVCnuNJmrDZqc8eV~-0o~boOQFkVRYQalzRhGJrAi9fhMPYoTWQWKt4Vp4sMpbz5XTCZo-U2l-x2u94sSlwqMlN4aHm3CvAGkrfA2L3Rvgibf8LFD3-M8TJwMCb84jMNoAMM7rA5JRBNAZPizIpzsR25jKHCPVWH6NHW0b6X2LOQzjbjGaYiA~E-rkXMpX1d3fSUA5tX8Wv56rXjiO0~YC3oniqoKyrzeucC0LJxJWjw__",
+      img: brandimg4,
       top: "-18px",
-      mt: "-mt-3",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/e0ef/f5f7/24c784f206a6256c97a7eb90dfcce0f1?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fkBe5Xp2SEjqFJovbWtpMDNaPg3ajf12~uBKg7owf9FjB2DiRbEs3ZYnjuXXTNgySy0mTUFTM~chwoglJ4HZ-z1jUXfZ0DqKzNS1gEaUI7Rk2EKpwkz3dWniPoVT~MAUsBuTBNtj0QmP6JFf8dOYeA2ek9~7BVHMirWyGb8DTQUoRK1MpYnJUUJD7qlM6lAQg4CxzesGR86RNdgypQtJMzfLRVgWQw~kIG-0SojeJMLdgyWCGeTUky-beI~mQbX5-lJfOCb0l6L3zEAC5Vjzf-iMqpaMLJ7ilxnftpF4tmJyKAxmGNTjTR9t2JVGewBoNGzltBtIVtFGmZQJbtZ1tg__",
+      img: brandimg1,
       mt: "mt-[12px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/75a5/f3ef/3dc1b76fffd388d46769627a7402645f?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eR8AD3gpomMZ-1as6ZLEeAmX5R2s0bqH7l0OUJDy~vuj4FfrhP~Z8ufxZVDJr5EMN7z5i54ukTZgAiQtWXdsayvtuixP1uKuUVIfWbJCMxtnX5RRIRkftzQaS08sDEiyTP0mEDRA9Awbb8C~gF~2rlXXdn9CVXYIZxs-BUM90c8Qe6~uo7BX2jpx~ues~EURLm68TbS7ph8VirKANmRcmzuHJLC0H8qBjRJ5LBUdI7rQq88EWuq6ocbTodZhn7wfbE7VP6OVABrblUTaM2N6s1W8ElWolP5~O8GfYijU2NSLHjlk11lTiQFTwuAUAjqJd15~L60rlu5uUP9J6cS5IA__",
+      img: brandimg2,
       top: "-12px",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/4d72/d170/2eaeecda27a5ea3765265f947a36858e?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PNMxUEKgoamYFNx0mEI~etC9VoL~THWuZDlo~dnAF5ulsz9lsnzf03G6PjWTEGNfI7s1MkJHdgAomlUfi2ZVcqBsm3jQ8H0mj4Ag9NekgVa24zR12W~r22sLVPF8f9pCWjL4tWbuVBlfJ6InCbg6Mu-DnJJHixQ8SFLHXKqznPPKeN4LIMMNv0COZOrPafPS9wa-oVHtncRYAovDK-SCZpWCLDY0VM6agwuksdfiocYONRgYyE-vx8JL49gd6xJjIxkE03R9XFDA0TgEt-JJ4uP9OSug9kuzgy8PGNhdo1kjXMdFI3xON26SNWupySpJxN4B-WWfP4WTPfSOh29ebA__",
-      mt: "mt-[12px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
+      img: brandimg3,
+      mt: "mt-[14px] h-40 w-40 sm:mt-[20px] lg:mt-[40px]",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/4809/5628/7eecb7445e064336e6c6a6c577d501af?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Bxwd456HtREwhmv9EYugzJdkYNH~03xovnfpnBMwZULu7H-Y6hDuu36VbiOOcFlrvsEJ9SqeP69OYUeuDjiEq-aN4yRGC1kyBIZjTWClmDLVCnuNJmrDZqc8eV~-0o~boOQFkVRYQalzRhGJrAi9fhMPYoTWQWKt4Vp4sMpbz5XTCZo-U2l-x2u94sSlwqMlN4aHm3CvAGkrfA2L3Rvgibf8LFD3-M8TJwMCb84jMNoAMM7rA5JRBNAZPizIpzsR25jKHCPVWH6NHW0b6X2LOQzjbjGaYiA~E-rkXMpX1d3fSUA5tX8Wv56rXjiO0~YC3oniqoKyrzeucC0LJxJWjw__",
+      img: brandimg4,
       top: "-18px",
-      mt: "-mt-3",
     },
+
   ]
   const [isHovering2, setIsHovering2] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
