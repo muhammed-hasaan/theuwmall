@@ -1628,6 +1628,7 @@ import brandimg3 from "../../assets/brand3.png"
 import brandimg4 from "../../assets/brand4.png"
 import latestoffers1 from "../../assets/latestoffersimg1.jpeg"
 import latestoffers2 from "../../assets/latestoffersimg2.jpeg"
+import HeroVideo from "../../assets/HeroVideo.mp4"
 
 const CustomCursor = ({ isActive }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 })
@@ -1930,24 +1931,24 @@ export default function Home() {
         onMouseLeave={() => setIsHovering2(false)}
       >
         {/* Background Video */}
-        {/* <div className="absolute inset-0 z-[1]">
+        <div className="absolute inset-0 z-[1]">
           <video
             className="absolute inset-0 w-full h-full object-cover"
-            src="https://streamable.com/kbe5cg"
+            src={HeroVideo}
             autoPlay
             muted
             loop
             playsInline
           />
 
-        </div> */}
-        <div className="absolute inset-0 z-[1]">
+        </div>
+        {/* <div className="absolute inset-0 z-[1]">
           <img
             className="absolute inset-0 w-full h-full object-cover"
             src="https://s3-alpha-sig.figma.com/img/bb87/675c/c1f91f8a44ba53bf704b8d1cbfcc7783?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZmGcFhBf8c~drSjQr0y3ec5UhpIKrgVx1wnHC6OX~ca-oiMDwoI8om5H0yZ0OujHa3p-q9uu3QGbh-GVES5PV5mzXyEw9FmonIrXFp8wzP2vaEOkXsgWBOotcBdtzPIvj1nt1djEX9pQlhmHI6WC3bAwmm8AZVNlEZYti3Gl6QbLQIN9HojMJwj8B1nCf-faYP-TnCMNn2w4uhJEW6A8fKPExkurbCCZF5UuoTxoZhQoT-ejPrGmIV8a3o2pXSBcU8HdRljbzabffadqpaApplyRyLwofi-jxloD5bGrDYGHZ5r7MfYydIbTUeFVWUFaIjJSu2dLj6Fs0x2tfyfSVg__"
             alt=""
           />
-        </div>
+        </div> */}
 
         {/* Navigation */}
         <div
